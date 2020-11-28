@@ -1,0 +1,27 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+// variables
+
+$header: hsla(0, 0%, 100%, .2);
+
+
+
+// mixins
+@mixin flex_b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex_e {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@mixin scroller_header{
+        background: rgba(24, 150, 22, .6);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+}
