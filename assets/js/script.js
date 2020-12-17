@@ -9,9 +9,15 @@
      });
      $('.hamburger_btn').click(function () {
          $('.hamburger_menu').css('transform', 'translateX(0)')
+         $('.body').css('overflow','hidden');
+
+         $('.overlay').addClass('active')
      });
      $('.close_btn').click(function () {
          $('.hamburger_menu').css('transform', 'translateX(-360px)')
+         $('.overlay').remove('active');
+         $('.body').css('overflow','unset');
+
      });
 
 
