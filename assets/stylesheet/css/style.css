@@ -1063,6 +1063,8 @@ body {
 @media screen and (max-width: 480px) {
   .modal {
     width: 95%;
+    padding: 22px 34px 18px 33px;
+    margin-top: 50px;
   }
 }
 
@@ -1091,6 +1093,12 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 480px) {
+  .modal input[type=text] {
+    padding: 12px 12px 12px 38px;
+  }
+}
+
 .modal input[type=email] {
   display: block;
   width: 100%;
@@ -1100,9 +1108,21 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .modal input[type=email] {
+    padding: 12px 12px 12px 38px;
+  }
+}
+
 .modal input[type=checkbox] {
   margin-bottom: 40px;
   display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+  .modal input[type=checkbox] {
+    padding: 12px 12px 12px 38px;
+  }
 }
 
 .modal textarea {
@@ -1113,6 +1133,12 @@ body {
   border: 1px solid #555555;
   margin-bottom: 20px;
   resize: none;
+}
+
+@media screen and (max-width: 480px) {
+  .modal textarea {
+    height: 120px;
+  }
 }
 
 .modal .button_wrapper {
@@ -1141,6 +1167,7 @@ body {
   .modal .button_wrapper button {
     font-size: 18px;
     padding: 6px 117px;
+    width: 100%;
   }
 }
 
@@ -1150,6 +1177,19 @@ body {
   top: -1%;
 }
 
+@media screen and (max-width: 480px) {
+  .modal .close_modal {
+    right: 0;
+    top: -10%;
+  }
+}
+
 .modal .close_modal img {
   width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+  .modal .close_modal img {
+    width: 40px;
+  }
 }

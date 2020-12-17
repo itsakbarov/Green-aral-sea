@@ -15,9 +15,11 @@
     z-index: 9995;
     width: 100%;
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) all;
-    @media screen and (max-width: 480px){
+
+    @media screen and (max-width: 480px) {
         padding: 0 20px
     }
+
     .header_inner {
         font-family: Poppins;
         padding: 10px 0;
@@ -626,8 +628,8 @@
         @media screen and (max-width: 480px) {
             padding: 0;
             background-position: 30%;
-        background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-        url('../../imgs/Grandfather_granddaughter_photo_2019-12-19_10-38-21\ 1.jpg');
+            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                url('../../imgs/Grandfather_granddaughter_photo_2019-12-19_10-38-21\ 1.jpg');
 
         }
 
@@ -913,9 +915,13 @@
     padding: 57px 55px 70px 55px;
     transform: translate(-50%, -50%);
     background: #FFFFFF;
-    @media screen and (max-width: 480px){
+
+    @media screen and (max-width: 480px) {
         width: 95%;
+    padding: 22px 34px 18px 33px;
+        margin-top: 50px;
     }
+
     label {
         font-style: normal;
         font-weight: normal;
@@ -923,9 +929,10 @@
         line-height: 33px;
         margin-bottom: 10px;
         color: #000000;
-            @media screen and (max-width: 480px) {
-                font-size: 14px;
-            }
+
+        @media screen and (max-width: 480px) {
+            font-size: 14px;
+        }
     }
 
 
@@ -938,7 +945,9 @@
         margin-bottom: 20px;
         position: relative;
 
-
+        @media screen and (max-width: 480px) {
+            padding: 12px 12px 12px 38px;
+        }
     }
 
 
@@ -951,11 +960,19 @@
         background: #EEEEEE;
         border: 1px solid #555555;
         margin-bottom: 20px;
+
+        @media screen and (max-width: 480px) {
+            padding: 12px 12px 12px 38px;
+        }
     }
 
     input[type=checkbox] {
         margin-bottom: 40px;
         display: inline-block;
+
+        @media screen and (max-width: 480px) {
+            padding: 12px 12px 12px 38px;
+        }
     }
 
     textarea {
@@ -965,6 +982,11 @@
         background: #EEEEEE;
         border: 1px solid #555555;
         margin-bottom: 20px;
+
+        @media screen and (max-width: 480px) {
+            height: 120px;
+        }
+
         resize: none;
     }
 
@@ -983,9 +1005,11 @@
             outline: none;
             cursor: pointer;
             color: #FFFFFF;
-            @media screen and (max-width: 480px){
+
+            @media screen and (max-width: 480px) {
                 font-size: 18px;
                 padding: 6px 117px;
+                width: 100%;
             }
         }
 
@@ -995,9 +1019,15 @@
         position: absolute;
         right: -60%;
         top: -1%;
-
+        @media screen and (max-width: 480px){
+            right: 0;
+            top: -10%;
+        }
         img {
             width: 70%;
+            @media screen and (max-width: 480px) {
+                width: 40px;
+            }
         }
     }
 }
