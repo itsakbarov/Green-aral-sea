@@ -31,6 +31,12 @@ body {
   transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) all;
 }
 
+@media screen and (max-width: 480px) {
+  .site_header {
+    padding: 0 20px;
+  }
+}
+
 .site_header .header_inner {
   font-family: Poppins;
   padding: 10px 0;
@@ -1054,6 +1060,12 @@ body {
   background: #FFFFFF;
 }
 
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 95%;
+  }
+}
+
 .modal label {
   font-style: normal;
   font-weight: normal;
@@ -1061,6 +1073,12 @@ body {
   line-height: 33px;
   margin-bottom: 10px;
   color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .modal label {
+    font-size: 14px;
+  }
 }
 
 .modal input[type=text] {
@@ -1117,6 +1135,13 @@ body {
   outline: none;
   cursor: pointer;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+  .modal .button_wrapper button {
+    font-size: 18px;
+    padding: 6px 117px;
+  }
 }
 
 .modal .close_modal {
