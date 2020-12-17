@@ -569,9 +569,21 @@ body {
   transition: cubic-bezier(0.38, 0.24, 0, 1.57) 0.5s all;
 }
 
+@media screen and (max-width: 480px) {
+  .hamburger_menu {
+    background-size: 23%;
+  }
+}
+
 .hamburger_menu .close_btn {
   float: right;
   padding: 40px 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .hamburger_menu .close_btn {
+    width: 30%;
+  }
 }
 
 .hamburger_menu .menu_group {
@@ -593,6 +605,13 @@ body {
   font-size: 24px;
   line-height: 42px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+  .hamburger_menu .menu_group .menu_item .menu_link {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 ::-webkit-scrollbar {
