@@ -913,8 +913,12 @@ line-height: 36px;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+              @media screen and(max-width: 480px) {
+                justify-content: space-around;
+              }
 
         .left {
+
             a {
                 font-style: normal;
                 font-weight: 500;
@@ -923,12 +927,20 @@ line-height: 36px;
                 color: #EEEEEE;
                 padding: 0 15px;
                 text-decoration: none;
+                @media screen and(max-width: 480px){
+font-size: 16px;
+display: block;
+                }
             }
         }
 
         .right {
             a {
                 margin-left: 30px;
+                    @media screen and(max-width: 480px) {
+                        font-size: 16px;
+                        display: block;
+                    }
             }
         }
     }

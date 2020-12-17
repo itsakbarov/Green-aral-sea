@@ -23,9 +23,12 @@
 
      $('.modal_opener').click(function () {
          $('.modal').show(300)
+         $('.overlay').addClass('active')
+
      });
 
      $('.close_modal').click(function () {
+         $('.overlay').remove('active');
          $('.modal').hide(300)
      });
 

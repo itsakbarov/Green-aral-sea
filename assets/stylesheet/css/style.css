@@ -1087,6 +1087,13 @@ body {
   padding: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .site_footer .container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .site_footer .container .left a {
   font-style: normal;
   font-weight: 500;
@@ -1097,8 +1104,22 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 480px) {
+  .site_footer .container .left a {
+    font-size: 16px;
+    display: block;
+  }
+}
+
 .site_footer .container .right a {
   margin-left: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .site_footer .container .right a {
+    font-size: 16px;
+    display: block;
+  }
 }
 
 .modal {
