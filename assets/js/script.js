@@ -14,7 +14,7 @@
          $('.overlay').addClass('active')
      });
      $('.close_btn').click(function () {
-         $('.hamburger_menu').css('transform', 'translateX(-360px)')
+         $('.hamburger_menu').css('transform', 'translateX(-500px)')
          $('.overlay').remove('active');
          $('.body').css('overflow','unset');
 
