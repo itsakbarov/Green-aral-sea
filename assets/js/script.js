@@ -64,3 +64,11 @@
  $('#next_btn').click(function () {
      owl.trigger('next.owl.carousel');
  });
+
+
+for (let index = 0; index <= 50000; index++) {
+    setTimeout(() => {
+        document.querySelector('.counter').textContent = index
+    }, 1600);
+
+}
